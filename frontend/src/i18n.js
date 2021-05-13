@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import { ptBR, enUS } from "./assets/i18n";
+import ptBR from "./assets/i18n/pt-BR.json";
+import enUS from "./assets/i18n/en-US.json";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 i18n
