@@ -6,7 +6,7 @@ import { WorldClockService } from "../../services/WorldClockService";
 const service = new WorldClockService();
 
 const Text = styled.div`
-  padding: auto;
+  padding: 5px 10px;
   color: #00ff00;
   font-size: 45px;
   font-family: DSDIGI;
@@ -57,8 +57,8 @@ function Clock(props) {
     let interval = 0;
     if (!paused) {
       interval = setInterval(() => {
-        setDate((date) => new Date(date.setSeconds(date.getSeconds() + 1)));
-      }, 1000);
+        setDate((date) => new Date(date.setMilliseconds(date.getMilliseconds() + 1)));
+      }, 1);
     }
     return () => clearInterval(interval);
   }, [paused]);
