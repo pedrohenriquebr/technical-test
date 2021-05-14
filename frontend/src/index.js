@@ -6,6 +6,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import App from "./app";
 import "./i18n";
 import theme from './theme';
+import "./index.css";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
