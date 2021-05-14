@@ -1,0 +1,19 @@
+{
+  "name": "technical-test",
+  "version": "1.0.0",
+  "description": "# Installation",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrohenriquebr/technical-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrohenriquebr/technical-test/issues"
+  },
+  "homepage": "https://github.com/pedrohenriquebr/technical-test#readme"
+}

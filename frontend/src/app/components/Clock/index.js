@@ -16,7 +16,7 @@ const Text = styled.div`
 `;
 
 const Circle = styled.div`
-  background-color: gray;
+  background-color: #2364AA;
   display: flex;
   flex-direction: column;
   justify-content: center;
