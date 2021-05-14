@@ -1,4 +1,19 @@
 @font-face {
+    font-family: 'DSDIGIB';
+    src: local('DS-DIGIB'), url(./assets/fonts/DS-DIGITAL/DS-DIGIB.TTF) format('truetype');
+}
+
+@font-face {
     font-family: 'DSDIGI';
-    src: local('DS-DIGI'), url(./assets/fonts/DS-DIGITAL/DS-DIGIB.TTF) format('truetype');
-  }
+    src: local('DS-DIGI'), url(./assets/fonts/DS-DIGITAL/DS-DIGI.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'DSDIGII';
+    src: local('DS-DIGII'), url(./assets/fonts/DS-DIGITAL/DS-DIGII.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'DSDIGIT';
+    src: local('DS-DIGIT'), url(./assets/fonts/DS-DIGITAL/DS-DIGIT.TTF) format('truetype');
+}
