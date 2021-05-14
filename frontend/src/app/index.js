@@ -6,7 +6,7 @@ import Box from "@material-ui/core/Box";
 import { Suspense } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { useTranslation } from "react-i18next";
-import { Clock } from "./components/Clock";
+import { Home } from "./pages/home";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,9 +32,7 @@ function App() {
           </Suspense>
         </Toolbar>
       </AppBar>
-      <Container maxWidth="md">
-        <Clock />
-      </Container>
+      <Home />
     </Box>
   );
 }
